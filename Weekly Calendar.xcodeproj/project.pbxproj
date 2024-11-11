@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F735649212622820058E679 /* MondayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F735648212622820058E679 /* MondayTableViewController.swift */; };
+		3F73564C212629730058E679 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F73564A212629730058E679 /* Model.xcdatamodeld */; };
+		3F73564E212631F20058E679 /* TuesdayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73564D212631F20058E679 /* TuesdayTableViewController.swift */; };
+		3F7356502126357B0058E679 /* WednesdayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73564F2126357B0058E679 /* WednesdayTableViewController.swift */; };
+		3F735652212635A90058E679 /* ThursdayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F735651212635A90058E679 /* ThursdayTableViewController.swift */; };
+		3F735654212635BF0058E679 /* FridayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F735653212635BF0058E679 /* FridayTableViewController.swift */; };
+		3F735656212635F40058E679 /* SaturdayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F735655212635F40058E679 /* SaturdayTableViewController.swift */; };
+		3F735658212636110058E679 /* SundayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F735657212636110058E679 /* SundayTableViewController.swift */; };
+		3F73565A21263A350058E679 /* PageViewStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73565921263A350058E679 /* PageViewStuff.swift */; };
+		3F73565C21263DC30058E679 /* AddEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73565B21263DC30058E679 /* AddEventsViewController.swift */; };
+		3F7517DF2124DE1F0077233A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7517DE2124DE1F0077233A /* AppDelegate.swift */; };
+		3F7517E42124DE1F0077233A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7517E22124DE1F0077233A /* Main.storyboard */; };
+		3F7517E62124DE1F0077233A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7517E52124DE1F0077233A /* Assets.xcassets */; };
+		3F7517E92124DE1F0077233A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7517E72124DE1F0077233A /* LaunchScreen.storyboard */; };
+		3F7517F12124DF840077233A /* DateMods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7517F02124DF840077233A /* DateMods.swift */; };
+		3F7517F52124E7450077233A /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7517F42124E7450077233A /* Module.swift */; };
+		3F7517F92124EAE70077233A /* CoreDataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7517F82124EAE70077233A /* CoreDataModule.swift */; };
+		3F856145212740D8003D3A82 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856144212740D8003D3A82 /* PreviewController.swift */; };
+		3F85614721276367003D3A82 /* ColorMods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85614621276367003D3A82 /* ColorMods.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F735648212622820058E679 /* MondayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayTableViewController.swift; sourceTree = "<group>"; };
+		3F73564B212629730058E679 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3F73564D212631F20058E679 /* TuesdayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuesdayTableViewController.swift; sourceTree = "<group>"; };
+		3F73564F2126357B0058E679 /* WednesdayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WednesdayTableViewController.swift; sourceTree = "<group>"; };
+		3F735651212635A90058E679 /* ThursdayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThursdayTableViewController.swift; sourceTree = "<group>"; };
+		3F735653212635BF0058E679 /* FridayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayTableViewController.swift; sourceTree = "<group>"; };
+		3F735655212635F40058E679 /* SaturdayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturdayTableViewController.swift; sourceTree = "<group>"; };
+		3F735657212636110058E679 /* SundayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayTableViewController.swift; sourceTree = "<group>"; };
+		3F73565921263A350058E679 /* PageViewStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewStuff.swift; sourceTree = "<group>"; };
+		3F73565B21263DC30058E679 /* AddEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventsViewController.swift; sourceTree = "<group>"; };
+		3F7517DB2124DE1F0077233A /* Weekly Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weekly Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7517DE2124DE1F0077233A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7517E32124DE1F0077233A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7517E52124DE1F0077233A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7517E82124DE1F0077233A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7517EA2124DE1F0077233A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7517F02124DF840077233A /* DateMods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateMods.swift; sourceTree = "<group>"; };
+		3F7517F42124E7450077233A /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		3F7517F82124EAE70077233A /* CoreDataModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataModule.swift; sourceTree = "<group>"; };
+		3F856144212740D8003D3A82 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
+		3F85614621276367003D3A82 /* ColorMods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorMods.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7517D82124DE1F0077233A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7517D22124DE1F0077233A = {
+			isa = PBXGroup;
+			children = (
+				3F7517DD2124DE1F0077233A /* Weekly Calendar */,
+				3F7517DC2124DE1F0077233A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7517DC2124DE1F0077233A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7517DB2124DE1F0077233A /* Weekly Calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7517DD2124DE1F0077233A /* Weekly Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3F7517DE2124DE1F0077233A /* AppDelegate.swift */,
+				3F735648212622820058E679 /* MondayTableViewController.swift */,
+				3F73564D212631F20058E679 /* TuesdayTableViewController.swift */,
+				3F73564F2126357B0058E679 /* WednesdayTableViewController.swift */,
+				3F735651212635A90058E679 /* ThursdayTableViewController.swift */,
+				3F735653212635BF0058E679 /* FridayTableViewController.swift */,
+				3F735655212635F40058E679 /* SaturdayTableViewController.swift */,
+				3F735657212636110058E679 /* SundayTableViewController.swift */,
+				3F73565B21263DC30058E679 /* AddEventsViewController.swift */,
+				3F7517F82124EAE70077233A /* CoreDataModule.swift */,
+				3F7517F42124E7450077233A /* Module.swift */,
+				3F73565921263A350058E679 /* PageViewStuff.swift */,
+				3F85614621276367003D3A82 /* ColorMods.swift */,
+				3F7517F02124DF840077233A /* DateMods.swift */,
+				3F7517E22124DE1F0077233A /* Main.storyboard */,
+				3F856144212740D8003D3A82 /* PreviewController.swift */,
+				3F73564A212629730058E679 /* Model.xcdatamodeld */,
+				3F7517E52124DE1F0077233A /* Assets.xcassets */,
+				3F7517E72124DE1F0077233A /* LaunchScreen.storyboard */,
+				3F7517EA2124DE1F0077233A /* Info.plist */,
+			);
+			path = "Weekly Calendar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7517DA2124DE1F0077233A /* Weekly Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7517ED2124DE1F0077233A /* Build configuration list for PBXNativeTarget "Weekly Calendar" */;
+			buildPhases = (
+				3F7517D72124DE1F0077233A /* Sources */,
+				3F7517D82124DE1F0077233A /* Frameworks */,
+				3F7517D92124DE1F0077233A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weekly Calendar";
+			productName = "Weekly Calendar";
+			productReference = 3F7517DB2124DE1F0077233A /* Weekly Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7517D32124DE1F0077233A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F7517DA2124DE1F0077233A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F7517D62124DE1F0077233A /* Build configuration list for PBXProject "Weekly Calendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7517D22124DE1F0077233A;
+			productRefGroup = 3F7517DC2124DE1F0077233A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7517DA2124DE1F0077233A /* Weekly Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7517D92124DE1F0077233A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7517E92124DE1F0077233A /* LaunchScreen.storyboard in Resources */,
+				3F7517E62124DE1F0077233A /* Assets.xcassets in Resources */,
+				3F7517E42124DE1F0077233A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7517D72124DE1F0077233A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7356502126357B0058E679 /* WednesdayTableViewController.swift in Sources */,
+				3F735658212636110058E679 /* SundayTableViewController.swift in Sources */,
+				3F73564E212631F20058E679 /* TuesdayTableViewController.swift in Sources */,
+				3F735654212635BF0058E679 /* FridayTableViewController.swift in Sources */,
+				3F735656212635F40058E679 /* SaturdayTableViewController.swift in Sources */,
+				3F7517F92124EAE70077233A /* CoreDataModule.swift in Sources */,
+				3F73565A21263A350058E679 /* PageViewStuff.swift in Sources */,
+				3F7517F52124E7450077233A /* Module.swift in Sources */,
+				3F7517F12124DF840077233A /* DateMods.swift in Sources */,
+				3F735652212635A90058E679 /* ThursdayTableViewController.swift in Sources */,
+				3F856145212740D8003D3A82 /* PreviewController.swift in Sources */,
+				3F7517DF2124DE1F0077233A /* AppDelegate.swift in Sources */,
+				3F85614721276367003D3A82 /* ColorMods.swift in Sources */,
+				3F73565C21263DC30058E679 /* AddEventsViewController.swift in Sources */,
+				3F735649212622820058E679 /* MondayTableViewController.swift in Sources */,
+				3F73564C212629730058E679 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7517E22124DE1F0077233A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7517E32124DE1F0077233A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7517E72124DE1F0077233A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7517E82124DE1F0077233A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7517EB2124DE1F0077233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7517EC2124DE1F0077233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7517EE2124DE1F0077233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Weekly Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riya.Weekly-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7517EF2124DE1F0077233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Weekly Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riya.Weekly-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7517D62124DE1F0077233A /* Build configuration list for PBXProject "Weekly Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7517EB2124DE1F0077233A /* Debug */,
+				3F7517EC2124DE1F0077233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7517ED2124DE1F0077233A /* Build configuration list for PBXNativeTarget "Weekly Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7517EE2124DE1F0077233A /* Debug */,
+				3F7517EF2124DE1F0077233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F73564A212629730058E679 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F73564B212629730058E679 /* Model.xcdatamodel */,
+			);
+			currentVersion = 3F73564B212629730058E679 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F7517D32124DE1F0077233A /* Project object */;
+}
